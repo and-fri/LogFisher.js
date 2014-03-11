@@ -1,0 +1,9 @@
+{
+  "name": "log-fisher",
+  "description": "Log fisher for Baywatch",
+  "author": "and-fri",
+  "dependencies": {},
+  "scripts": {
+    "preinstall":"npm install -g forever"
+  }
+}
