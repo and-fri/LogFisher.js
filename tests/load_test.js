@@ -1,5 +1,5 @@
 var http = require("http");
-var _config_ = require("./config");
+var _config_ = require("../config");
 var i = 1;
 
 setInterval(function(){

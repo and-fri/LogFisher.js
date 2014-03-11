@@ -17,11 +17,15 @@ var config = {
                   // System- / Log- tag for identification on Baywatch for parsing purposes
                   tag : 'Sidekiq',
                   // the path to this file
-                  path : './tests/test_logs.log'
+                  path : './tests/test_log_1.log'
                 },
                 {
                   tag : 'Mediabutler',
-                  path : './tests/test_logs2.log'
+                  path : './tests/test_log_2.log'
+                },
+                {
+                  tag : '',
+                  path : './tests/test_log_3.log'
                 }
               ]
 };
