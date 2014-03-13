@@ -8,7 +8,7 @@ setInterval(function(){
 
 function loadBaywatch() {
   var msg = "Superawesome loadtest running --> (" + i +")";
-  var obj = {'line':msg, 'system':'Master Blaster'};
+  var obj = {'line':msg, 'system':'Log Fisher'};
   post_data = JSON.stringify(obj);
   console.log('sending: ' + post_data);
   
